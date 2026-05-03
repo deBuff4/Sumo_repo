@@ -1,0 +1,4 @@
+Warning: Teleporting vehicle '4_bus_м3а:1'; waited too long (wrong lane), lane='252110509#0_1', time=437.00.
+Warning: Vehicle '4_bus_м3а:1' ends teleporting on edge '252110509#1', time=437.00.
+Warning: Teleporting vehicle '17_bus_м3:0'; waited too long (wrong lane), lane='252110509#0_1', time=744.00.
+Warning: Vehicle '17_bus_м3:0' ends teleporting on edge '252110509#1', time=744.00.
