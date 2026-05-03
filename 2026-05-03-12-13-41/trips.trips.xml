@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-03 12:13:56.461507 by Eclipse SUMO $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_26_0+1000-c71e510aa5d
+<configuration>
+    <net-file value="/home/diaden/2026-05-03-12-13-41/osm.net.xml.gz"/>
+    <ptlines-file value="/home/diaden/2026-05-03-12-13-41/osm_ptlines.xml"/>
+    <ptstops-file value="/home/diaden/2026-05-03-12-13-41/osm_stops.add.xml"/>
+    <output-file value="/home/diaden/2026-05-03-12-13-41/osm_pt.rou.xml"/>
+    <stopinfos-file value="/home/diaden/2026-05-03-12-13-41/stopinfos.xml"/>
+    <routes-file value="/home/diaden/2026-05-03-12-13-41/vehroutes.xml"/>
+    <trips-file value="/home/diaden/2026-05-03-12-13-41/trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <types value="bus"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="2_bus_294:0" type="pt_bus" depart="15.0" departLane="best" from="30735492" to="157600515#1">
+        <stop busStop="2699824215" duration="30"/>  <!-- Поликлиника -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="3_bus_345а:0" type="pt_bus" depart="17.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="4_bus_т86к:0" type="pt_bus" depart="52.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="5_bus_м3а:0" type="pt_bus" depart="55.0" departLane="best" from="430045516" to="594899552">
+        <stop busStop="6242129323" duration="30"/>  <!-- Поликлиника №115 -->
+        <stop busStop="6242129326" duration="30"/>  <!-- Улица Мнёвники -->
+    </trip>
+    <trip id="6_bus_м3а:1" type="pt_bus" depart="58.0" departLane="best" from="28053297#0" to="1241633682">
+        <stop busStop="6242129325" duration="30"/>  <!-- Улица Мнёвники -->
+        <stop busStop="1456333357" duration="30"/>  <!-- МЖК «Атом» -->
+        <stop busStop="612522387" duration="30"/>  <!-- Поликлиника -->
+    </trip>
+    <trip id="7_bus_т21:0" type="pt_bus" depart="93.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="8_bus_т21:1" type="pt_bus" depart="119.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="9_bus_48:0" type="pt_bus" depart="131.0" departLane="best" from="1272473366" to="157600515#1">
+        <stop busStop="12997959838" duration="30"/>  <!-- Улица Мнёвники -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="10_bus_48:1" type="pt_bus" depart="132.0" departLane="best" from="295298101#0" to="-1272473366">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="-1123631408" duration="30"/>  <!-- Улица Мнёвники -->
+    </trip>
+    <trip id="11_bus_м35:0" type="pt_bus" depart="133.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="12_bus_м35:1" type="pt_bus" depart="165.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="15_bus_403:0" type="pt_bus" depart="227.0" departLane="best" from="430045516" to="157600515#1">
+        <stop busStop="2699824215" duration="30"/>  <!-- Поликлиника -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="16_bus_403:1" type="pt_bus" depart="253.0" departLane="best" from="295298101#0" to="1241633682">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="1456333357" duration="30"/>  <!-- МЖК «Атом» -->
+        <stop busStop="612522387" duration="30"/>  <!-- Поликлиника -->
+    </trip>
+    <trip id="17_bus_345:0" type="pt_bus" depart="303.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="18_bus_345:1" type="pt_bus" depart="321.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="19_bus_м3:0" type="pt_bus" depart="326.0" departLane="best" from="28053297#0" to="1241633682">
+        <stop busStop="6242129325" duration="30"/>  <!-- Улица Мнёвники -->
+        <stop busStop="1456333357" duration="30"/>  <!-- МЖК «Атом» -->
+        <stop busStop="612522387" duration="30"/>  <!-- Поликлиника -->
+    </trip>
+    <trip id="20_bus_м3:1" type="pt_bus" depart="331.0" departLane="best" from="430045516" to="594899552">
+        <stop busStop="6242129323" duration="30"/>  <!-- Поликлиника №115 -->
+        <stop busStop="6242129326" duration="30"/>  <!-- Улица Мнёвники -->
+    </trip>
+    <trip id="21_bus_т65:0" type="pt_bus" depart="346.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="22_bus_т86:0" type="pt_bus" depart="353.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="23_bus_т86:1" type="pt_bus" depart="362.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="24_bus_155:0" type="pt_bus" depart="371.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="25_bus_155:1" type="pt_bus" depart="383.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="26_bus_391:0" type="pt_bus" depart="389.0" departLane="best" from="295298101#0" to="1241633682">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="1456333357" duration="30"/>  <!-- МЖК «Атом» -->
+        <stop busStop="612522387" duration="30"/>  <!-- Поликлиника -->
+    </trip>
+    <trip id="27_bus_391:1" type="pt_bus" depart="406.0" departLane="best" from="430045516" to="157600515#1">
+        <stop busStop="2699824215" duration="30"/>  <!-- Поликлиника -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="28_bus_800:0" type="pt_bus" depart="418.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="1456333357" duration="30"/>  <!-- МЖК «Атом» -->
+        <stop busStop="612522387" duration="30"/>  <!-- Поликлиника -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="29_bus_800:1" type="pt_bus" depart="437.0" departLane="best" from="430045516" to="157600515#1">
+        <stop busStop="2699824215" duration="30"/>  <!-- Поликлиника -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="30_bus_с339:0" type="pt_bus" depart="441.0" departLane="best" from="-154204353" to="-154204353">
+        <stop busStop="-10799104370" duration="30"/>  <!-- 3-я Хорошёвская улица -->
+        <stop busStop="-10799104367" duration="30"/>  <!-- Новохорошёвский проезд -->
+        <stop busStop="-10799104373" duration="30"/>  <!-- Институт «Гипросвязь» -->
+        <stop busStop="-10799104385" duration="30"/>  <!-- ТЭЦ-16 -->
+    </trip>
+    <trip id="31_bus_с339:1" type="pt_bus" depart="483.0" departLane="best" from="154204353" to="157600515#1">
+        <stop busStop="10799104384" duration="30"/>  <!-- ТЭЦ-16 -->
+        <stop busStop="10799104374" duration="30"/>  <!-- Институт «Гипросвязь» -->
+        <stop busStop="10799104369" duration="30"/>  <!-- Новохорошёвский проезд -->
+        <stop busStop="10799104372" duration="30"/>  <!-- 3-я Хорошёвская улица -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="32_bus_294:1" type="pt_bus" depart="484.0" departLane="best" from="295298101#0" to="-1272473366">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="-1123631408" duration="30"/>  <!-- Улица Мнёвники -->
+    </trip>
+    <trip id="33_bus_322:0" type="pt_bus" depart="485.0" departLane="best" from="1272473366" to="157600515#1">
+        <stop busStop="12997959838" duration="30"/>  <!-- Улица Мнёвники -->
+        <stop busStop="981969019" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="34_bus_322:1" type="pt_bus" depart="497.0" departLane="best" from="295298101#0" to="-1272473366">
+        <stop busStop="-1449161206" duration="30"/>  <!-- Улица Мнёвники, 4 -->
+        <stop busStop="-1123631408" duration="30"/>  <!-- Улица Мнёвники -->
+    </trip>
+    <trip id="35_bus_597:0" type="pt_bus" depart="508.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+    <trip id="36_bus_597:1" type="pt_bus" depart="517.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="37_bus_т65:1" type="pt_bus" depart="535.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="38_bus_390:0" type="pt_bus" depart="574.0" departLane="best" from="295298101#0" to="430045512#1">
+        <stop busStop="1953905311" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="1390556611" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1390556630" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="4730949125" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+    </trip>
+    <trip id="39_bus_390:1" type="pt_bus" depart="583.0" departLane="best" from="902481333#0" to="157600515#1">
+        <stop busStop="1953905283" duration="30"/>  <!-- Метро «Народное Ополчение» -->
+        <stop busStop="1953905349" duration="30"/>  <!-- Улица Демьяна Бедного -->
+        <stop busStop="1953905353" duration="30"/>  <!-- Проспект Маршала Жукова, 14 -->
+        <stop busStop="1953905318" duration="30"/>  <!-- Сквер Маршала Жукова -->
+        <stop busStop="4730949154" duration="30"/>  <!-- МЦК «Хорошёво» -->
+    </trip>
+</routes>
