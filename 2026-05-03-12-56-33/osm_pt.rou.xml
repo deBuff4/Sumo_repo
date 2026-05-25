@@ -324,3 +324,15 @@
         <param key="name" value="Автобус 390: Пляж №3 Cеребряного Бора =&gt; Метро «Полежаевская»"/>
     </flow>
 </routes>
+
+    </flow>
+    
+    <!-- Добавляем автомобили -->
+    <vType id="DEFAULT_VEHTYPE" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="4.5"/>
+    
+    <flow id="traffic" type="DEFAULT_VEHTYPE" begin="0" end="3600" period="7.2" probability="1">
+        <param key="from" value="random"/>
+        <param key="to" value="random"/>
+    </flow>
+    
+</routes>
