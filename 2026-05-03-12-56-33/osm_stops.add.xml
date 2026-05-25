@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-25T12:32:01.895121+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-25T14:26:28.307567+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
-    <busStop id="-10799104367" name="Новохорошёвский проезд" lane="-154204353_0" startPos="333.06" endPos="348.06" friendlyPos="1" lines="339"/>
     <busStop id="-10799104370" name="3-я Хорошёвская улица" lane="-154204353_0" startPos="61.72" endPos="76.72" friendlyPos="1" lines="339"/>
-    <busStop id="-10799104373" name="Институт «Гипросвязь»" lane="-154204353_0" startPos="614.16" endPos="629.16" friendlyPos="1" lines="339"/>
-    <busStop id="-10799104385" name="ТЭЦ-16" lane="-154204353_0" startPos="1028.72" endPos="1043.72" friendlyPos="1" lines="339"/>
     <busStop id="-1123631408" name="Улица Мнёвники" lane="-432750249#4_0" startPos="26.54" endPos="41.54" friendlyPos="1" lines="48 294 322">
         <access lane="-242803994_0" pos="104.51" friendlyPos="1" length="25.11"/>
         <access lane="-242804001#0_0" pos="66.37" friendlyPos="1" length="12.27"/>
@@ -23,10 +20,7 @@
         <access lane="139782190_0" pos="0.00" friendlyPos="1" length="25.44"/>
         <access lane="83116907_0" pos="0.00" friendlyPos="1" length="44.65"/>
     </busStop>
-    <busStop id="10799104369" name="Новохорошёвский проезд" lane="154204353_0" startPos="752.67" endPos="767.67" friendlyPos="1" lines="339"/>
-    <busStop id="10799104372" name="3-я Хорошёвская улица" lane="154204353_0" startPos="1044.90" endPos="1059.90" friendlyPos="1" lines="339"/>
-    <busStop id="10799104374" name="Институт «Гипросвязь»" lane="154204353_0" startPos="510.66" endPos="525.66" friendlyPos="1" lines="339"/>
-    <busStop id="10799104384" name="ТЭЦ-16" lane="154204353_0" startPos="83.70" endPos="98.70" friendlyPos="1" lines="339"/>
+    <busStop id="10799104372" name="3-я Хорошёвская улица" lane="154204353.882_0" startPos="163.68" endPos="178.68" friendlyPos="1" lines="339"/>
     <busStop id="12997959838" name="Улица Мнёвники" lane="1272473366_0" startPos="22.16" endPos="37.16" friendlyPos="1" lines="48 322">
         <access lane="-96965309#0_0" pos="14.99" friendlyPos="1" length="50.78"/>
         <access lane="-96965309#1_0" pos="32.45" friendlyPos="1" length="76.94"/>
