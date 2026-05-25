@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-25T12:32:01.896935+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-25T16:11:05.518443+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" vClass="bus"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
     <trip id="t_0" depart="0.00" from="264292225" to="-131700468#5"/>
     <trip id="t_1" depart="0.00" from="264292225" to="-131700468#5"/>
@@ -14,4 +16,8 @@
     <trip id="t_6" depart="0.00" from="264292224" to="264292208"/>
     <trip id="t_7" depart="0.00" from="264292224" to="594899548"/>
     <trip id="t_8" depart="0.00" from="430045516" to="264292208"/>
+    <flow id="bus_155" begin="0.00" end="3600.00" probability="0.5" color="red" line="155" from="-E2" to="430045512#0" via="E0 23265254#1"/>
+    <flow id="bus_48" begin="0.00" end="3600.00" probability="0.5" line="48" from="-E2" to="-E20" via="-295298104#1 -295298104#0 157600567#0 157600565#1 169368040 131700469#0 1272473359 131700470#0 497960128 295298104#0"/>
+    <flow id="bus_800" begin="0.00" end="3600.00" probability="0.05000000000000000278" color="green" line="800" from="-E2" to="430045512#0" via="-295298104#0 157600565#0 252110509#3 78432206#0 395544026#0"/>
+    <flow id="f_1" begin="0.00" end="3600.00" probability="0.5" color="white" line="294" from="30735492.83" to="-E20" via="264292224 88607524 497960128 295298104#0"/>
 </routes>
