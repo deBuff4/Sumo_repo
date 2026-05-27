@@ -1,110 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-27T17:22:13.997601+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-27T19:52:37.920202+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
     <busStop id="-10799104370" name="3-я Хорошёвская улица" lane="-154204353_0" startPos="22.48" endPos="37.48" friendlyPos="1" lines="339"/>
-    <busStop id="-1123631408" name="Улица Мнёвники" lane="-432750249#4_0" startPos="26.54" endPos="41.54" friendlyPos="1" lines="48 294 322">
-        <access lane="-242803994_0" pos="104.51" friendlyPos="1" length="25.11"/>
-        <access lane="-242804001#0_0" pos="66.37" friendlyPos="1" length="12.27"/>
-        <access lane="1124281521_0" pos="92.72" friendlyPos="1" length="71.39"/>
-        <access lane="242803994_0" pos="0.00" friendlyPos="1" length="29.72"/>
-        <access lane="242804001#0_0" pos="0.00" friendlyPos="1" length="16.33"/>
-    </busStop>
-    <busStop id="-1449161206" name="Улица Мнёвники, 4" lane="-157600569#1_0" startPos="15.97" endPos="30.97" friendlyPos="1" lines="48 403 391 800 294 322">
-        <access lane="-1388259065#0_0" pos="13.21" friendlyPos="1" length="41.94"/>
-        <access lane="-139782190_0" pos="14.99" friendlyPos="1" length="21.98"/>
-        <access lane="1388259065#0_0" pos="0.00" friendlyPos="1" length="44.03"/>
-        <access lane="139782190_0" pos="0.00" friendlyPos="1" length="25.44"/>
-        <access lane="83116907_0" pos="0.00" friendlyPos="1" length="44.65"/>
-    </busStop>
+    <busStop id="-1123631408" name="Улица Мнёвники" lane="-432750249#4_0" startPos="26.54" endPos="41.54" friendlyPos="1" lines="48 294 322"/>
+    <busStop id="-1449161206" name="Улица Мнёвники, 4" lane="-157600569#1_0" startPos="15.97" endPos="30.97" friendlyPos="1" lines="48 403 391 800 294 322"/>
     <busStop id="10799104372" name="3-я Хорошёвская улица" lane="154204353.882_0" startPos="137.71" endPos="152.71" friendlyPos="1" lines="339"/>
-    <busStop id="12997959838" name="Улица Мнёвники" lane="1272473366_0" startPos="22.16" endPos="37.16" friendlyPos="1" lines="48 322">
-        <access lane="-96965309#0_0" pos="14.99" friendlyPos="1" length="50.78"/>
-        <access lane="-96965309#1_0" pos="32.45" friendlyPos="1" length="76.94"/>
-        <access lane="432750735_0" pos="0.00" friendlyPos="1" length="88.82"/>
-        <access lane="96965309#0_0" pos="0.00" friendlyPos="1" length="55.36"/>
-        <access lane="96965309#1_0" pos="0.00" friendlyPos="1" length="79.91"/>
-    </busStop>
-    <busStop id="1390556611" name="Проспект Маршала Жукова, 14" lane="23265254#5_0" startPos="37.04" endPos="52.04" friendlyPos="1" lines="21 35 14 345 86 155 597 65 390">
-        <access lane="-486615326#0_0" pos="0.00" friendlyPos="1" length="35.02"/>
-        <access lane="-486615330#0_0" pos="0.00" friendlyPos="1" length="43.58"/>
-        <access lane="-83281524_0" pos="41.69" friendlyPos="1" length="21.68"/>
-        <access lane="486615330#1_0" pos="3.38" friendlyPos="1" length="39.71"/>
-        <access lane="83281524_0" pos="19.90" friendlyPos="1" length="16.88"/>
-    </busStop>
-    <busStop id="1390556630" name="Метро «Народное Ополчение»" lane="430045512#0_0" startPos="83.75" endPos="98.75" friendlyPos="1" lines="21 35 14 345 86 155 800 597 65 390">
-        <access lane="-139758110_0" pos="44.22" friendlyPos="1" length="148.49"/>
-        <access lane="-139758111_0" pos="0.00" friendlyPos="1" length="86.39"/>
-        <access lane="-83116880#0_0" pos="16.71" friendlyPos="1" length="143.31"/>
-        <access lane="139758100_0" pos="66.65" friendlyPos="1" length="81.79"/>
-        <access lane="83116880#0_0" pos="0.00" friendlyPos="1" length="138.57"/>
-    </busStop>
-    <busStop id="1456333357" name="МЖК «Атом»" lane="252110509#2_0" startPos="18.36" endPos="33.36" friendlyPos="1" lines="3 403 3 391 800">
-        <access lane="-157600521#4_0" pos="173.13" friendlyPos="1" length="69.14"/>
-        <access lane="157600521#4_0" pos="87.32" friendlyPos="1" length="73.94"/>
-    </busStop>
-    <busStop id="1953905283" name="Метро «Народное Ополчение»" lane="902481333#0_0" startPos="101.34" endPos="116.34" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390">
-        <access lane="-139758111_0" pos="0.00" friendlyPos="1" length="189.65"/>
-        <access lane="139758100_0" pos="66.65" friendlyPos="1" length="188.02"/>
-        <access lane="139758117#2_0" pos="16.36" friendlyPos="1" length="282.40"/>
-    </busStop>
-    <busStop id="1953905349" name="Улица Демьяна Бедного" lane="184849822#2_0" startPos="56.36" endPos="71.36" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390">
-        <access lane="-83116589#0_0" pos="23.90" friendlyPos="1" length="56.34"/>
-        <access lane="-83116698_0" pos="0.00" friendlyPos="1" length="24.62"/>
-        <access lane="-83116816#0_0" pos="38.95" friendlyPos="1" length="67.45"/>
-        <access lane="83116589#0_0" pos="0.00" friendlyPos="1" length="59.96"/>
-        <access lane="83116698_0" pos="98.49" friendlyPos="1" length="29.28"/>
-    </busStop>
-    <busStop id="1953905353" name="Проспект Маршала Жукова, 14" lane="184849822#7_0" startPos="23.66" endPos="38.66" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390">
-        <access lane="-139778862#5_0" pos="0.00" friendlyPos="1" length="68.40"/>
-        <access lane="-27634583#0_0" pos="34.03" friendlyPos="1" length="51.87"/>
-        <access lane="-83116644_0" pos="0.00" friendlyPos="1" length="55.50"/>
-        <access lane="27634583#0_0" pos="0.00" friendlyPos="1" length="56.63"/>
-        <access lane="83116644_0" pos="75.77" friendlyPos="1" length="56.29"/>
-    </busStop>
-    <busStop id="2699824215" name="Поликлиника" lane="264292208_0" startPos="41.31" endPos="56.31" friendlyPos="1" lines="294 403 391 800">
-        <access lane="1201791993#1_0" pos="73.18" friendlyPos="1" length="52.76"/>
-        <access lane="1201791993#0_0" pos="14.37" friendlyPos="1" length="31.69"/>
-        <access lane="-83116828_0" pos="117.63" friendlyPos="1" length="58.83"/>
-        <access lane="-1201791993#1_0" pos="2.62" friendlyPos="1" length="47.94"/>
-        <access lane="-1201791993#0_0" pos="62.85" friendlyPos="1" length="36.49"/>
-    </busStop>
+    <busStop id="12997959838" name="Улица Мнёвники" lane="1272473366_0" startPos="22.16" endPos="37.16" friendlyPos="1" lines="48 322"/>
+    <busStop id="1390556611" name="Проспект Маршала Жукова, 14" lane="23265254#5_0" startPos="37.04" endPos="52.04" friendlyPos="1" lines="21 35 14 345 86 155 597 65 390"/>
+    <busStop id="1390556630" name="Метро «Народное Ополчение»" lane="430045512#0_0" startPos="83.75" endPos="98.75" friendlyPos="1" lines="21 35 14 345 86 155 800 597 65 390"/>
+    <busStop id="1456333357" name="МЖК «Атом»" lane="252110509#2_0" startPos="18.36" endPos="33.36" friendlyPos="1" lines="3 403 3 391 800"/>
+    <busStop id="1953905283" name="Метро «Народное Ополчение»" lane="902481333#0_0" startPos="101.34" endPos="116.34" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
+    <busStop id="1953905349" name="Улица Демьяна Бедного" lane="184849822#2_0" startPos="56.36" endPos="71.36" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
+    <busStop id="1953905353" name="Проспект Маршала Жукова, 14" lane="184849822#7_0" startPos="23.66" endPos="38.66" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
+    <busStop id="2699824215" name="Поликлиника" lane="264292208_0" startPos="41.31" endPos="56.31" friendlyPos="1" lines="294 403 391 800"/>
     <busStop id="4730949125" name="Метро «Народное Ополчение»" lane="430045512#0_0" startPos="334.50" endPos="349.50" friendlyPos="1" lines="21 35 14 345 86 155 800 597 65 390"/>
-    <busStop id="612522387" name="Поликлиника" lane="252110509#3_0" startPos="33.49" endPos="48.49" friendlyPos="1" lines="3 403 3 391 800">
-        <access lane="-1201791993#0_0" pos="64.57" friendlyPos="1" length="87.48"/>
-        <access lane="-1201791993#1_0" pos="2.62" friendlyPos="1" length="99.51"/>
-        <access lane="-83116828_0" pos="117.63" friendlyPos="1" length="107.34"/>
-        <access lane="1201791993#0_0" pos="12.42" friendlyPos="1" length="82.67"/>
-        <access lane="1201791993#1_0" pos="73.18" friendlyPos="1" length="104.33"/>
-    </busStop>
-    <busStop id="6242129323" name="Поликлиника №115" lane="430045516_0" startPos="6.89" endPos="21.89" friendlyPos="1" lines="3 3">
-        <access lane="287521395_0" pos="1.73" friendlyPos="1" length="84.94"/>
-        <access lane="185707200#0_0" pos="64.00" friendlyPos="1" length="35.96"/>
-        <access lane="1201791713_0" pos="0.00" friendlyPos="1" length="86.62"/>
-        <access lane="-185707200#0_0" pos="43.29" friendlyPos="1" length="33.56"/>
-        <access lane="-1201791713_0" pos="5.93" friendlyPos="1" length="81.86"/>
-    </busStop>
-    <busStop id="6242129325" name="Улица Мнёвники" lane="28053297#1_0" startPos="93.90" endPos="108.90" friendlyPos="1" lines="3 3">
-        <access lane="-1074588680#1_0" pos="17.51" friendlyPos="1" length="43.95"/>
-        <access lane="-129110159_0" pos="31.44" friendlyPos="1" length="49.23"/>
-        <access lane="1074588680#1_0" pos="147.20" friendlyPos="1" length="39.15"/>
-        <access lane="1124272492_0" pos="0.00" friendlyPos="1" length="57.65"/>
-        <access lane="129110159_0" pos="0.00" friendlyPos="1" length="48.29"/>
-    </busStop>
-    <busStop id="6242129326" name="Улица Мнёвники" lane="23396772#0_0" startPos="57.39" endPos="72.39" friendlyPos="1" lines="3 3">
-        <access lane="-157600521#4_0" pos="0.00" friendlyPos="1" length="68.30"/>
-        <access lane="-427194002#0_0" pos="18.02" friendlyPos="1" length="57.36"/>
-        <access lane="157600521#4_0" pos="260.40" friendlyPos="1" length="71.53"/>
-        <access lane="427194002#0_0" pos="0.00" friendlyPos="1" length="52.73"/>
-        <access lane="595760503_0" pos="30.30" friendlyPos="1" length="45.95"/>
-    </busStop>
+    <busStop id="612522387" name="Поликлиника" lane="252110509#3_0" startPos="33.49" endPos="48.49" friendlyPos="1" lines="3 403 3 391 800"/>
+    <busStop id="6242129323" name="Поликлиника №115" lane="430045516_0" startPos="6.89" endPos="21.89" friendlyPos="1" lines="3 3"/>
+    <busStop id="6242129325" name="Улица Мнёвники" lane="28053297#1_0" startPos="93.90" endPos="108.90" friendlyPos="1" lines="3 3"/>
+    <busStop id="6242129326" name="Улица Мнёвники" lane="23396772#0_0" startPos="57.39" endPos="72.39" friendlyPos="1" lines="3 3"/>
     <busStop id="981969019" name="Улица Мнёвники, 4" lane="497960128_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="294 48 403 391 800 322">
-        <access lane="-139784157_0" pos="75.68" friendlyPos="1" length="43.53"/>
-        <access lane="-185707213#1_0" pos="48.73" friendlyPos="1" length="43.75"/>
-        <access lane="139784157_0" pos="0.00" friendlyPos="1" length="48.23"/>
         <access lane="157600567#0_0" pos="26.19" friendlyPos="1" length="10.64"/>
         <access lane="82496098#2_0" pos="31.44" friendlyPos="1" length="46.47"/>
     </busStop>
