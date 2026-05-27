@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-27T17:07:33.090813+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-27T17:22:13.997601+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -20,7 +20,7 @@
         <access lane="139782190_0" pos="0.00" friendlyPos="1" length="25.44"/>
         <access lane="83116907_0" pos="0.00" friendlyPos="1" length="44.65"/>
     </busStop>
-    <busStop id="10799104372" name="3-я Хорошёвская улица" lane="154204353.882_0" startPos="163.68" endPos="178.68" friendlyPos="1" lines="339"/>
+    <busStop id="10799104372" name="3-я Хорошёвская улица" lane="154204353.882_0" startPos="137.71" endPos="152.71" friendlyPos="1" lines="339"/>
     <busStop id="12997959838" name="Улица Мнёвники" lane="1272473366_0" startPos="22.16" endPos="37.16" friendlyPos="1" lines="48 322">
         <access lane="-96965309#0_0" pos="14.99" friendlyPos="1" length="50.78"/>
         <access lane="-96965309#1_0" pos="32.45" friendlyPos="1" length="76.94"/>
