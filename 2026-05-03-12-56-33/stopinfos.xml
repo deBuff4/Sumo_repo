@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-25T17:00:14.991614+03:00 by Eclipse SUMO GUI v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-27T16:40:50.641754+03:00 by Eclipse SUMO GUI v1_26_0+1000-c71e510aa5d
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.net.xml.gz"/>
         <route-files value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.passenger.trips.xml"/>
-        <additional-files value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.poly.xml.gz,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm_stops.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/output.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.dat.add.xml"/>
+        <additional-files value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.poly.xml.gz,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm_stops.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/output.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/Narodnoe%20Opolchenie.dat.add.xml"/>
     </input>
 
     <output>
@@ -41,3 +41,34 @@
     </gui_only>
 
 </sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="bus_391.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="13.80" ended="21.80" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.44" parking="0" started="26.60" ended="27.40" busStop="bs_3" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="1.80"/>
+    <stopinfo id="bus_48.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="33.00" ended="41.00" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.1" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.80" parking="0" started="46.00" ended="46.80" busStop="bs_3" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="2.00"/>
+    <stopinfo id="bus_c339.0" type="DEFAULT_VEHTYPE" lane="-154204353_0" pos="38.75" parking="0" started="51.60" ended="52.40" busStop="-10799104370" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.60"/>
+    <stopinfo id="bus_155.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="52.00" ended="60.00" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_391.0" type="DEFAULT_VEHTYPE" lane="-157600569#1_0" pos="30.97" parking="0" started="57.20" ended="65.20" busStop="-1449161206" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.1" type="DEFAULT_VEHTYPE" lane="-154204353_0" pos="39.47" parking="0" started="70.80" ended="71.60" busStop="-10799104370" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.80"/>
+    <stopinfo id="bus_391.1" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="66.20" ended="74.20" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="10.60"/>
+    <stopinfo id="bus_155.1" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="80.40" ended="88.40" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="10.80"/>
+    <stopinfo id="bus_155.0" type="DEFAULT_VEHTYPE" lane="E0_0" pos="45.58" parking="0" started="84.60" ended="92.60" busStop="bs_1" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_48.1" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="95.40" ended="103.40" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="11.80"/>
+    <stopinfo id="bus_800.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="109.80" ended="117.80" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="11.20"/>
+    <stopinfo id="bus_c339.2" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.83" parking="0" started="122.80" ended="123.60" busStop="bs_3" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="2.00"/>
+    <stopinfo id="bus_48.2" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="129.00" ended="137.00" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_155.1" type="DEFAULT_VEHTYPE" lane="E0_0" pos="45.58" parking="0" started="139.80" ended="147.80" busStop="bs_1" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_391.2" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="143.20" ended="151.20" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="10.80"/>
+    <stopinfo id="bus_155.0" type="DEFAULT_VEHTYPE" lane="23265254#5_0" pos="52.04" parking="0" started="149.60" ended="157.60" busStop="1390556611" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_48.0" type="DEFAULT_VEHTYPE" lane="-157600569#1_0" pos="30.97" parking="0" started="154.80" ended="162.80" busStop="-1449161206" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.2" type="DEFAULT_VEHTYPE" lane="-154204353_0" pos="38.45" parking="0" started="163.20" ended="164.00" busStop="-10799104370" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.60"/>
+    <stopinfo id="bus_800.1" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="157.40" ended="165.40" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="11.00"/>
+    <stopinfo id="bus_c339.3" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="74.26" parking="0" started="170.20" ended="171.20" busStop="bs_3" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="1.80"/>
+    <stopinfo id="bus_391.0" type="DEFAULT_VEHTYPE" lane="252110509#2_0" pos="33.36" parking="0" started="163.60" ended="171.60" busStop="1456333357" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.4" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="74.51" parking="0" started="173.80" ended="174.40" busStop="bs_3" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="1.00"/>
+    <stopinfo id="bus_322.0" type="DEFAULT_VEHTYPE" lane="-E2_0" pos="73.27" parking="0" started="178.80" ended="186.80" busStop="bs_3" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.3" type="DEFAULT_VEHTYPE" lane="-154204353_0" pos="39.20" parking="0" started="195.20" ended="196.00" busStop="-10799104370" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.80"/>
+    <stopinfo id="bus_391.0" type="DEFAULT_VEHTYPE" lane="252110509#3_0" pos="48.49" parking="0" started="189.20" ended="197.20" busStop="612522387" line="800" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="bus_c339.4" type="DEFAULT_VEHTYPE" lane="-154204353_0
