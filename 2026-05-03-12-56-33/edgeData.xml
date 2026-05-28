@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-28T09:58:17.487857+03:00 by Eclipse SUMO GUI v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-28T10:34:46.810922+03:00 by Eclipse SUMO GUI 1.26.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.net.xml.gz"/>
-        <route-files value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.passenger.trips.xml"/>
-        <additional-files value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.poly.xml.gz,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm_stops.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/output.add.xml,/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.dat.add.xml"/>
+        <net-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.net.xml.gz"/>
+        <route-files value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.passenger.trips.xml"/>
+        <additional-files value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.poly.xml.gz,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm_stops.add.xml,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\output.add.xml,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.dat.add.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/tripinfos.xml"/>
-        <stop-output value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/stopinfos.xml"/>
-        <statistic-output value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/stats.xml"/>
+        <tripinfo-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\tripinfos.xml"/>
+        <stop-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stopinfos.xml"/>
+        <statistic-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stats.xml"/>
     </output>
 
     <time>
@@ -36,8 +36,12 @@
     </report>
 
     <gui_only>
-        <gui-settings-file value="/mnt/extra/git_projects/Sumo_repo/2026-05-03-12-56-33/osm.view.xml"/>
+        <gui-settings-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.view.xml"/>
         <delay value="100"/>
     </gui_only>
 
 </sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+</meandata>
