@@ -31,7 +31,7 @@
 =======
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-29T14:42:49.187244+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-29T15:12:05.327817+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -54,7 +54,6 @@
     <busStop id="6242129326" name="Улица Мнёвники" lane="23396772#0_0" startPos="57.39" endPos="72.39" friendlyPos="1" lines="3 3"/>
     <busStop id="981969019" name="Улица Мнёвники, 4" lane="497960128_0" startPos="0.00" endPos="15.00" friendlyPos="1" lines="294 48 403 391 800 322">
         <access lane="157600567#0_0" pos="26.19" friendlyPos="1" length="10.64"/>
-        <access lane="82496098#2_0" pos="31.44" friendlyPos="1" length="46.47"/>
     </busStop>
 </additional>
 >>>>>>> 82744a08b22362240f6abef2a53a2a518ab366a8
