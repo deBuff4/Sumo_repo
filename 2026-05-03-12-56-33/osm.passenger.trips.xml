@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-28T09:57:45.692033+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-29T14:42:53.412978+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
-    <vType id="DEFAULT_VEHTYPE" vClass="bus" color="magenta"/>
+    <vType id="DEFAULT_TAXITYPE"/>
+    <vType id="DEFAULT_VEHTYPE" vClass="bus" color="magenta" laneChangeModel="LC2013"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="car_flow_2" type="DEFAULT_TAXITYPE" depart="0.00" departLane="2" color="green" from="430045516" to="594899552"/>
     <flow id="bus_155" begin="0.00" end="3600.00" probability="0.0050000000000000001" departLane="0" departPos="0.00" color="red" line="155" from="-E2" to="430045512#0" via="E0 23265254#1">
         <stop busStop="bs_3" duration="8.00" line="800"/>
         <stop busStop="bs_1" duration="8.00" line="800"/>
@@ -42,7 +44,7 @@
         <stop busStop="bs_3" duration="8.00" line="800"/>
         <stop busStop="-1449161206" duration="8.00" line="800"/>
         <stop busStop="-1123631408" duration="8.00" line="800"/>
-        <stop busStop="12997959838" duration="8.00" line="800"/>
+        <stop busStop="12997959838" duration="8.00" line="800" friendlyPos="1"/>
         <stop busStop="981969019" duration="8.00" line="800"/>
         <stop busStop="bs_0" duration="8.00" line="800"/>
     </flow>
@@ -60,4 +62,8 @@
         <stop busStop="1456333357" duration="8.00"/>
         <stop busStop="612522387" duration="8.00"/>
     </flow>
+    <flow id="car_flow_4" type="DEFAULT_TAXITYPE" begin="0.00" end="3600.00" probability="0.01000000000000000021" departLane="0" color="blue" from="154204353.882" to="1241633682" via="169368040 28053297#1 46974418"/>
+    <flow id="car_flow_5" type="DEFAULT_TAXITYPE" begin="0.00" end="3600.00" probability="0.01000000000000000021" departLane="0" color="194,0,255" from="28053297#0" to="-1272473366"/>
+    <flow id="car_flow_6" type="DEFAULT_TAXITYPE" begin="0.00" end="3600.00" probability="0.10000000000000000555" departLane="1" color="128,0,0" from="30735492.83" to="-E20" via="264292224 264292208 88607524 497960128 295298104#1"/>
+    <flow id="f_1" type="DEFAULT_TAXITYPE" begin="0.00" end="3600.00" probability="0.01000000000000000021" departLane="1" color="white" from="28053297#0" to="1241633682" via="28053297#1 131700469#0 157600565#1 131700469#1 131700470#0 157600569#0 295298104#0 E0 -395544026#1"/>
 </routes>

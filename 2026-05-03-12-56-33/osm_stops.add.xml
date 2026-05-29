@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-05-28T09:39:23.659499+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
+<!-- generated on 2026-05-29T14:42:49.187244+03:00 by Eclipse SUMO netedit v1_26_0+1000-c71e510aa5d
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -13,7 +13,6 @@
     <busStop id="1390556611" name="Проспект Маршала Жукова, 14" lane="23265254#5_0" startPos="37.04" endPos="52.04" friendlyPos="1" lines="21 35 14 345 86 155 597 65 390"/>
     <busStop id="1390556630" name="Метро «Народное Ополчение»" lane="430045512#0_0" startPos="83.75" endPos="98.75" friendlyPos="1" lines="21 35 14 345 86 155 800 597 65 390"/>
     <busStop id="1456333357" name="МЖК «Атом»" lane="252110509#2_0" startPos="18.36" endPos="33.36" friendlyPos="1" lines="3 403 3 391 800"/>
-    <busStop id="1953905283" name="Метро «Народное Ополчение»" lane="902481333#0_0" startPos="101.34" endPos="116.34" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
     <busStop id="1953905349" name="Улица Демьяна Бедного" lane="184849822#2_0" startPos="47.34" endPos="62.34" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
     <busStop id="1953905353" name="Проспект Маршала Жукова, 14" lane="184849822#7_0" startPos="23.66" endPos="38.66" friendlyPos="1" lines="345 86 21 35 14 345 65 86 155 597 390"/>
     <busStop id="2699824215" name="Поликлиника" lane="264292208_0" startPos="41.31" endPos="56.31" friendlyPos="1" lines="294 403 391 800"/>
