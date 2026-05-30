@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2026-05-28T10:40:48.399404+03:00 by Eclipse SUMO GUI 1.26.0
@@ -16,6 +17,8 @@
         <stop-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stopinfos.xml"/>
         <statistic-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stats.xml"/>
 =======
+=======
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2026-05-28T10:34:46.634820+03:00 by Eclipse SUMO GUI 1.26.0
@@ -31,6 +34,9 @@
         <tripinfo-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\tripinfos.xml"/>
         <stop-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stopinfos.xml"/>
         <statistic-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stats.xml"/>
+<<<<<<< HEAD
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
+=======
 >>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
     </output>
 
@@ -55,6 +61,7 @@
     </report>
 
     <gui_only>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <gui-settings-file value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.view.xml"/>
         <delay value="100"/>
@@ -305,6 +312,8 @@
     <stopinfo id="bus_391.10" type="DEFAULT_VEHTYPE" lane="252110509#2_0" pos="33.36" parking="0" started="1770.00" ended="1830.00" busStop="1456333357" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers
 >>>>>>> 82744a08b22362240f6abef2a53a2a518ab366a8
 =======
+=======
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
         <gui-settings-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.view.xml"/>
         <delay value="100"/>
     </gui_only>
@@ -314,4 +323,7 @@
 
 <stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
 </stops>
+<<<<<<< HEAD
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
+=======
 >>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)

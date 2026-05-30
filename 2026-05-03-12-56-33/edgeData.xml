@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2026-05-28T10:40:48.487816+03:00 by Eclipse SUMO GUI 1.26.0
@@ -16,6 +17,8 @@
         <stop-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stopinfos.xml"/>
         <statistic-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stats.xml"/>
 =======
+=======
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2026-05-28T10:34:46.810922+03:00 by Eclipse SUMO GUI 1.26.0
@@ -31,6 +34,9 @@
         <tripinfo-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\tripinfos.xml"/>
         <stop-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stopinfos.xml"/>
         <statistic-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stats.xml"/>
+<<<<<<< HEAD
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
+=======
 >>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
     </output>
 
@@ -55,6 +61,7 @@
     </report>
 
     <gui_only>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <gui-settings-file value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.view.xml"/>
         <delay value="100"/>
@@ -111,6 +118,8 @@ eandata>
 </sumoConfiguration>
 >>>>>>> 82744a08b22362240f6abef2a53a2a518ab366a8
 =======
+=======
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
         <gui-settings-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.view.xml"/>
         <delay value="100"/>
     </gui_only>
@@ -120,4 +129,7 @@ eandata>
 
 <meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
 </meandata>
+<<<<<<< HEAD
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
+=======
 >>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
