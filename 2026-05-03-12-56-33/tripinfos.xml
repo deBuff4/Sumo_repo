@@ -1,3 +1,71 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-28T10:40:48.398363+03:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.net.xml.gz"/>
+        <route-files value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.passenger.trips.xml"/>
+        <additional-files value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.poly.xml.gz,C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm_stops.add.xml,C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\output.add.xml,C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.dat.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\tripinfos.xml"/>
+        <stop-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stopinfos.xml"/>
+        <statistic-output value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\stats.xml"/>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-28T10:34:46.634066+03:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.net.xml.gz"/>
+        <route-files value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.passenger.trips.xml"/>
+        <additional-files value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.poly.xml.gz,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm_stops.add.xml,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\output.add.xml,\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.dat.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\tripinfos.xml"/>
+        <stop-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stopinfos.xml"/>
+        <statistic-output value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\stats.xml"/>
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
+    </output>
+
+    <time>
+        <step-length value="0.2"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+<<<<<<< HEAD
+        <gui-settings-file value="C:\Mac\Home\Downloads\sumka\2026-05-03-12-56-33\osm.view.xml"/>
+        <delay value="100"/>
+    </gui_only>
+
+</sumoConfig-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
+ipinfos>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2026-05-29T14:34:21.403649+03:00 by Eclipse SUMO GUI v1_26_0+1000-c71e510aa5d
@@ -115,3 +183,15 @@
     <tripinfo id="bus_339.6" depart="1620.20" departLane="154204353.882_2" departPos="12.10" departSpeed="0.00" departDelay="0.00" arrival="1834.60" arrivalLane="-E20_0" arrivalPos="196.71" arrivalSpeed="9.44" duration="214.40" routeLength="471.97" waitingTime="26.40" waitingCount="1" stopTime="120.00" timeLoss="33.90" rerouteNo="1" devices="tripinfo_bus_339.6 routing_bus_339.6" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
     <tripinfo id="bus_48.8" depart="1582.20" departLane="-E2_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="1874.00" arrivalLane="-E20_0" arrivalPos="196.71" arrivalSpeed="9.88" duration="291.80" routeLength="1817.51" waitingTime="80.40" waitingCount="2" stopTime="32.00" timeLoss="103.99" rerouteNo="1" devices="tripinfo_bus_48.8 routing_bus_48.8" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
     <tripinfo id="bus_155.5" depart="1614.20" departLane="-E2_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="1874.40" arrivalLane="430045512#0_0" arrivalPos="367.54" arrivalSpeed="5.77" duration="260.20" routeLength="1558.43" waitingTime="53.20" waitingCount="3" stopTime="32.00" timeLoss="69.39" rerouteNo="1" devices="tripinfo_bus_155.5 routing_bus_155.5" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
+>>>>>>> 82744a08b22362240f6abef2a53a2a518ab366a8
+=======
+        <gui-settings-file value="\\Mac\Home\Documents\GitHub\Sumo_repo\2026-05-03-12-56-33\osm.view.xml"/>
+        <delay value="100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
+>>>>>>> parent of 82744a0 (Мелкие коррективы: дороги)
